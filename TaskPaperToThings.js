@@ -109,7 +109,7 @@ A note to the project
 
   // Copy to clipboard (if in Scriptable), otherwise test.
   if (isRunningOnScriptable) {
-    Pasteboard.copy(output);
+    Pasteboard.copy(json);
   } else {
     // Test output.
     if (json !== EXPECTED_OUTPUT) {
